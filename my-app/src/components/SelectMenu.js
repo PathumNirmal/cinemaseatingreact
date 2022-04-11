@@ -1,18 +1,20 @@
 import React from 'react'
-import { useNavigate} from "react-router-dom";
+import { useNavigate, BrowserRouter} from "react-router-dom";
+
 const ChooseMenu = (props) => {
-  const navigate = useNavigate();
+const navigate = useNavigate()
   return (
     <div>
+    
         <div className='row'>
             <div className='col-4 d-flex justify-content-center'><button className='btn btn-success menu-button' onClick={()=>{
-                            navigate('/dashboard/odc');
+                            navigate("/")
                         }}>ODC</button></div>
             <div className='col-4 d-flex justify-content-center'><button className='btn btn-info menu-button'onClick={()=>{
-                             navigate('/dashboard/box');
+                            navigate("/box")
                         }}>BOX</button></div>
             <div className='col-4 d-flex justify-content-center'><button className='btn btn-danger menu-button' onClick={()=>{
-                             navigate('/dashboard/balcony');
+                             navigate("/balcony")
                         }}>BALCONY</button></div>
         </div>
         
