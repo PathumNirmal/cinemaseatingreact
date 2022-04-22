@@ -6,6 +6,9 @@ import Box from './components/Box';
 import ODC from './components/ODC';
 import ChooseMenu from './components/SelectMenu'
 import {Route, Routes} from "react-router-dom";
+import { FillPage } from './components/FillPage';
+import Success from './components/Success';
+import { Admin } from './components/Admin';
 
 
 export default function App() {
@@ -26,9 +29,12 @@ export default function App() {
         
                      <Routes>
                         
-                        <Route exact path="/" element={<ODC/>}></Route>
+                     <Route exact path="/" element={<ODC/>}></Route>
                         <Route exact path="box" element={<Box/>}></Route>
                         <Route exact path="balcony" element={<Balcony/>}></Route>
+                        <Route exact path="success" element={<Success/>}></Route>
+                        <Route exact path="admin" element={<Admin/>}></Route>
+                        <Route exact path="fill/:seatNo" element={<FillPage/>}></Route>
                     
                     </Routes>  
          

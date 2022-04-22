@@ -1,0 +1,83 @@
+
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s1" value='s1' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}><ReactTooltip />S1</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s2" value='s2' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S2</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s3" value='s3' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S3</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s4" value='s4' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S4</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s5" value='s5' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S5</button></div>
+        <div className='col-1'></div>
+
+        <div className='col-1'></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s5" value='s6' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S6</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s5" value='s7' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S7</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s5" value='s8' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S8</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s5" value='s9' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S9</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s10" value='s10' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S10</button></div>
+
+      </div>
+      <div className='row pt-5'>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s11" value='s11' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S1</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s12" value='s12' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S2</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s13" value='s13' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S3</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s14" value='s14' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S4</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s15" value='s15' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S5</button></div>
+        <div className='col-1'></div>
+
+        <div className='col-1'></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s16" value='s16' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S6</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s17" value='s17' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S7</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s18" value='s18' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S8</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s19" value='s19' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S9</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s20" value='s20' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S10</button></div>
+
+      </div>
+
+      <div className='row pt-5'>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s21" value='s21' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S1</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s22" value='s22' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S2</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s23" value='s23' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S3</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s24" value='s24' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S4</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s25" value='s25' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S5</button></div>
+        <div className='col-1'></div>
+
+        <div className='col-1'></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s26" value='s26' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S6</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s27" value='s27' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S7</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s28" value='s28' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S8</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s29" value='s29' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S9</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s30" value='s30' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S10</button></div>
+
+      </div>
+
+      <div className='row pt-5'>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s31" value='s31' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S1</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s32" value='s32' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S2</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s33" value='s33' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S3</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s34" value='s34' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S4</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s35" value='s35' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S5</button></div>
+        <div className='col-1'></div>
+
+        <div className='col-1'></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s36" value='s36' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S6</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s37" value='s37' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S7</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s38" value='s38' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S8</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s39" value='s39' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S9</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s40" value='s40' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S10</button></div>
+
+      </div>
+
+      <div className='row pt-5'>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s41" value='s41' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S1</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s42" value='s42' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S2</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s43" value='s43' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S3</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s44" value='s44' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S4</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s45" value='s45' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S5</button></div>
+        <div className='col-1'></div>
+
+        <div className='col-1'></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s46" value='s46' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S6</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s47" value='s47' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S7</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s48" value='s48' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S8</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s49" value='s49' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S9</button></div>
+        <div className='col-1 d-flex justify-content-center d-flex align-items-center'><button className='btn btn-success' id="s50" value='s50' data-tip={available}  onMouseOver={(e)=>Cheking(e.target.value)} onClick={e => Booking(e.target.value)}>S10</button></div>
+
+      </div>

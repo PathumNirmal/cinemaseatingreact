@@ -3,7 +3,7 @@ const bodyParser=require('body-parser')
 const api=require('./api/api')
 const cors=require('cors')
 
-const PORT=3000;
+const PORT=3002;
 
 //dgzdfgvzdsgv
 const app=express()

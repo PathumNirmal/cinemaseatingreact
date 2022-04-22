@@ -1,7 +1,7 @@
 import React from 'react'
-import { useNavigate, BrowserRouter} from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
-const ChooseMenu = (props) => {
+const ChooseMenu = () => {
 const navigate = useNavigate()
   return (
     <div>
