@@ -18,9 +18,15 @@
   height: 90vh;
 }
 .zoom:hover {
+ 
   transform: scale(1.3);
+  
   }
 
+.size-box{
+  width: 20vw;
+  height: 20vh;
+}
 
 .menu-button{
   width: 100%;
