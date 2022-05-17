@@ -2,6 +2,7 @@ const express=require('express')
 const router=express.Router();
 const mongoose=require('mongoose');
 const Seat = require('../Models/Seat');
+const Test = require('../Models/Test');
 
 const db ="mongodb+srv://deshan:deshan2233@cluster0.4ynst.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 //connect with database
@@ -40,6 +41,18 @@ router.post('/booking', function (req, res) {
         }
         else {
             res.send({ 'message': "Seat Book Success", 'id': result._id });
+        }
+    })
+
+    let TestData={
+        seatNo:req.body.seatNo
+    }
+    let test=new Test(TestData)
+    test.save((error, result)=>{
+        if(error){
+            console.log(error)
+        }else{
+            res.send({'message2':"Ok"})
         }
     })
 
@@ -84,6 +97,8 @@ router.get('/available/:seatNo', function(req,res){
         }
     })
 })
+
+
 
 
 module.exports=router;
