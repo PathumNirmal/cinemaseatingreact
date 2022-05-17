@@ -17,7 +17,7 @@ export class Services{
         axios.post("http://localhost:3002/booking",data).then((res)=>{
             console.log(res);
             
-            this.navigate("/success");
+            this.navigate("/success",{state:{type:type}});
         });
     }
 

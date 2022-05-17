@@ -58,9 +58,9 @@ function dateGet(today){
         </div>
 
     </div>
-    <div className='row' style={{marginTop:"10px", paddingLeft:"50px", paddingRight:"50px"}}>
+    <div className='row' style={{marginTop:"10vh", paddingLeft:"30vw", paddingRight:"30vw"}}>
        
-        <input type="submit" value="Book A Seat"></input>
+        <input type="submit" className='btn btn-info' value="Book A Seat"></input>
         
        
     </div>

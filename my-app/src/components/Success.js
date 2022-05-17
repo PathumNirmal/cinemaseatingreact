@@ -1,10 +1,21 @@
 import React from 'react'
-import { useNavigate } from 'react-router'
+import { useNavigate, useLocation} from 'react-router'
 
 const Success = () => {
+    const location=useLocation();
     const navigate = useNavigate();
     function Home(){
-        navigate('/')
+        const path=location.state.type;
+        if(path==="ODC"){
+          navigate('/')
+        }
+        else if(path==="Box"){
+          navigate('/box')
+        }
+        else{
+          navigate('/balcony')
+        }
+       
     }
   return (
     <div>
