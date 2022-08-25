@@ -5,7 +5,7 @@ const cors=require('cors')
 
 const PORT=3002;
 
-//dgzdfgvzdsgv
+
 const app=express()
 app.use(cors())
 app.use(bodyParser.json({limit:'50mb'}))
